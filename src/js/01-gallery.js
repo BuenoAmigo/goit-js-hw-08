@@ -20,8 +20,8 @@ galleryList.insertAdjacentHTML('afterbegin', markup);
 new SimpleLightbox('.gallery a',
    {
       captionsData: 'alt',
-      captionDelay: 250,
-      captionPosition: 'bottom',
+      captionDelay: 5000,
+      captionPosition: 'outside top',
       widthRatio: 0.9,
-      heightRatio: 0.6,
+      heightRatio: 0.8,
    });
